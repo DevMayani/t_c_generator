@@ -35,6 +35,15 @@ code {
   height: 30px;
   color: white;
 }
+.get{
+  width: 200px;
+  background-color: #093330;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-size:25px;
+}
 #main-head{
   margin: auto;
   max-height: 115vh;
@@ -93,10 +102,14 @@ code {
   width:100%;
 }
   .bco{
-    background-color: #E9C5FB;
     border: 1px solid black;
-    height: 40vh;
+    height: 45vh;
     margin: 20px 0;
+    padding: 20px;
+    box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    border-radius: 10px;
   }
   .have{
     line-height: 30px;
@@ -104,10 +117,11 @@ code {
   #new-cont{
   max-height: 200vh;
   width: 100%;
+  margin-top: 150px;
   
   }
   .how{
-    margin-top: 50px;
+    margin-top: 40px;
   }
   
   #conone{
@@ -120,6 +134,9 @@ code {
     padding: 30px;
     border-radius: 10px;
     border: 1px solid grey;
+    box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
     /* width: 40%; */
   }
   #five{
@@ -128,6 +145,9 @@ code {
     padding: 30px;
     border-radius: 10px;
     border: 1px solid grey;
+    box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
     /* width: 40%; */
   }
   #fours{
@@ -136,6 +156,9 @@ code {
     padding: 30px;
     border-radius: 10px;
     border: 1px solid grey;
+    box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
   }
 
   #fourss{
@@ -144,40 +167,71 @@ code {
     padding: 30px;
     border-radius: 10px;
     color: white;
+    box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 11px 13px 5px -3px rgba(0,0,0,0.74);
   }
   #cotwo{
    margin-top: 70px;
     gap: 100px;
   }
   #third-cont{
-    background-color: #2f968f;
-    max-height: 80vh;
-    margin: 100px auto;
-    gap: 30px;
+    max-height: 230vh;
+    padding: 80px;
+    background-color: red;
+    margin: 40px auto;
+   
   }
-  .foutrow{
-    gap: 30px;
+  #six-cont{
+    max-height: 160vh;
+    background-color: #093330;
+    color: white;
+    margin-top: 30px;
+  }
+  #foutrow{
     padding: 70px 0;
-
+    gap: 20px;
+    max-height: 200vh;
+  }
+  #conones{
+    gap: 20px;
+    /* margin-top: 30px; */
+    padding: 70px 0;
+    max-height: 170vh;
   }
   #a{
     background-color: #093330;
-    height: 30vh;
+    height: 50vh;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* width: 32%; */
   }
   #b{
     background-color: #093330;
-    height: 30vh;
+    height: 60vh;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* width: 32%; */
   }
   #c{
     background-color: #093330;
-    height: 30vh;
+    height: 50vh;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* width: 32%; */
   }
   .feed{
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
   }
 .arrow{
   width:5%;
@@ -192,8 +246,80 @@ code {
   background-color: #541d83;
   width: 30%;
 }
+.hay{
+  width: 90%;
+  display: block;
+  justify-content: center;
+ height: 50vh;
+ margin-top: 50px;
+  /* gap: 20px; */
+}
+.photo{
+  margin-top: 10px;
+}
+.top{
+  margin-top: 20px;
+}
 
+.name{
+  margin-top: 20px;
+}
 
+.last{
+  max-height: 160vh;
+  padding: 80px;
+  
+}
+#e{
+  height: 35vh;
+  /* padding: 50px 100px; */
+}
+#f{
+  height: 35vh;
+}
+#g{
+  height: 35vh;
+}
+#h{
+  height: 35vh;
+}
+.last-div{
+  margin: 20px 0;
+}
+#aa{
+  color: white;
+  text-decoration: none;
+}
+#cont-footer{
+  height: 8vh;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+}
+.footer-text{
+  color:#093330;
+}
+.footer-div{
+  /* display: flex;
+  justify-content:center;
+  align-items: center; */
+}
+#new-one{
+  background-color: yellow;
+  gap: 40px;
+  width: 100%;
+}
+#jj{
+  background-color: #541d83;
+}
+#ff{
+  background-color: #746a7e;
+}
+#gg{
+  background-color: blue;
+}
 
 
 
