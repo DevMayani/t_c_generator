@@ -33,11 +33,12 @@ code {
   border: none;
   border-radius: 20px;
   height: 30px;
+  color: white;
 }
 #main-head{
-  background-color: #FFF;
   margin: auto;
-  height: 82vh;
+  max-height: 115vh;
+  margin-top: 40px;
 }
 .imgs{
   width:80%;
@@ -57,11 +58,140 @@ code {
   background-color: #093330;
   height: 30px;
   width:100%;
+  margin: 30px 0;
+}
+.inner-cont{
+  height:150vh;
+}
+.text-inner{
+  text-align: center;
+}
+#down{
+  height: 50vh;
+ /* padding: 20px 0; */
+ margin: 20px auto;
+}
+.imgss{
+  width:5%;
+  position: absolute;
+}
+.imgssm{
+  width:20%;
+  position: relative;
+ left: 6px;
+ top: 4px;
+ /* top: 5px; */
+}
+.we{
+  margin-top: 30px;
+}
+#rowtwo{
+  max-height: 130vh;
+  
+}
+.pic{
+  width:100%;
+}
+  .bco{
+    background-color: #E9C5FB;
+    border: 1px solid black;
+    height: 40vh;
+    margin: 20px 0;
+  }
+  .have{
+    line-height: 30px;
+  }
+  #new-cont{
+  max-height: 200vh;
+  width: 100%;
+  
+  }
+  .how{
+    margin-top: 50px;
+  }
+  
+  #conone{
+    gap: 100px;
+    margin-top: 80px;
+  }
+  #four{
+    background-color:#FFFFFF;
+    height:30vh;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    /* width: 40%; */
+  }
+  #five{
+    background-color: #FFFFFF;
+    height:30vh;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    /* width: 40%; */
+  }
+  #fours{
+    background-color: #FFFFFF;
+    height:30vh;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+  }
+
+  #fourss{
+    background-color: #093330;
+    height:30vh;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+  }
+  #cotwo{
+   margin-top: 70px;
+    gap: 100px;
+  }
+  #third-cont{
+    background-color: #2f968f;
+    max-height: 80vh;
+    margin: 100px auto;
+    gap: 30px;
+  }
+  .foutrow{
+    gap: 30px;
+    padding: 70px 0;
+
+  }
+  #a{
+    background-color: #093330;
+    height: 30vh;
+    border-radius: 10px;
+  }
+  #b{
+    background-color: #093330;
+    height: 30vh;
+    border-radius: 10px;
+  }
+  #c{
+    background-color: #093330;
+    height: 30vh;
+    border-radius: 10px;
+  }
+  .feed{
+    text-align: center;
+    padding: 20px 0;
+  }
+.arrow{
+  width:5%;
 }
 
-  
-
-
+.step{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.enter{
+  background-color: #541d83;
+  width: 30%;
+}
 
 
 

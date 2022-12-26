@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div>
     <Container id='main-head'>
-      <Row>
+      <Row id='row'>
         <Col xs={6} sm={12} md={6} id="one">
           <div className='hld'>
           <h1>Valid Solution for</h1>
@@ -27,9 +27,6 @@ const Main = () => {
       </Row>
     </Container>
     <Container fluid>
-      <div  id='und'>
-        jhgcfghjknlm
-      </div>
       </Container>
     </div>
     
