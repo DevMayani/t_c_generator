@@ -320,49 +320,142 @@ code {
 #gg{
   background-color: blue;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (min-width: 576px) {
-  #hmm{
-    gap: 20px;
-  }
+.wel{
+  color:#093330;
+  margin:50px  70px;
+  
+}
+.wels{
+  color:#093330;
+  margin:50px  10px;
+  background-color: red;
+  width: 100%;
+}
+.hhh{
+  max-width: 100%;
+  margin-top: 20px;
+  color:#093330;
+}
+.ggg{
+  width: 100%;
+  margin-top: 40px;
 }
 
-
-@media (min-width: 414px) {
-  #hmm{
-    gap: 0px;
-  }
+.wl-text{
+  color:#093330;
+  font-weight: bolder;
+  font-size: xx-large;
 }
-
-@media (min-width: 390px) {
-  #hmm{
-    gap: 0px;
-  }
+#new-ones{
+  height: 145vh;
 }
-@media (min-width: 100px) {
-  #hmm{
-    gap: 0px;
-  }
+#new-two{
+  height: 145vh;
+}
+#maint-cont{
+  height: 145vh;
+  margin-top: 30px;
+  
+}
+.two-one{
+  background-color: red;
+  height: 100vh;
+}
+/* .two-inn{
+  background-color: rgb(34, 93, 25);
+  text-align: center;
+  height: 10vh;
 } */
+.sig{
+  background-color: white;
+  height:6vh;
+  border: 2px solid black;
+  width: 80%;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 10px;
+  gap: 20px;
+  
+}
+.main-sig{
+  height:10vh;
+  display: flex;
+  align-items:center;
+  margin-top: 30px;
+  justify-content: flex-start;
+ 
+}
+.creat{
+  text-align: center;
+  width: 80%;
+}
+.sign-new{
+  background-color:yellow;
+  /* height: 100vh; */
+  width: 100%;
+}
+hr{
+  width: 10%;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+}
+.link{
+  text-decoration:none;
+  list-style: none;
+  /* font-size:; */
+}
+.inp{
+  width: 80%;
+  border-radius: 10px;
+  height: 50px;
+}
+.first{
+  margin-top: 20px;
+}
+.firsts{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}
+.colo{
+  color: #E43A19;
+}
+.pur{
+  color: #6055F4;
+  font-size: small;
+}
+.check{
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,11 @@
 import React from 'react';
 import './index.css';
-import { useState } from "react";
 import { Routes, Route,Router } from "react-router-dom";
-// import { useState } from "react";
 import Homepage from './component/Homepage';
 import Contact from './component/Contact/Index';
+import Signup from './component/Sign/Signup';
+
+
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
     <Routes>
     <Route path="/" element={<Homepage />} />
     <Route path="/Contact" element={<Contact />} />
+    <Route path="/signup" element={<Signup />} />
+
     </Routes>
    
   );

@@ -11,6 +11,8 @@ import Hand from '../../images/Hand.png';
 import Arrow from '../../images/arrow.png';
 import Arrows from '../../images/arrow-white.png';
 import Step from './Step';
+// import Signup from './component/Sign/Signup';
+import { Link } from "react-router-dom";
 
 
 
@@ -63,7 +65,13 @@ const Innermain = () => {
           <div className='bco'>
             <h4 className='have'>Having a good Terms of Service (TOS) is very important for every website or application. Basically, is a legal agreement between a service and aperson that wants to use that service.We will take care to clear all the doubts of your current and upcoming users with our highly professional TOS generator.</h4>
           </div>
-          <button className='get'><a href='' id='aa'>Get Started</a></button>
+          {/* <button className='get'><a href='<Signup /> ' id='aa'>Get Started</a></button> */}
+          <Link to='/signup'><button className='get'>Get Started</button></Link>
+
+          
+          {/* <Link to={to}>
+      <Typography>{title}</Typography>
+      </Link> */}
           </Col>
         </Row>
       </Container>
