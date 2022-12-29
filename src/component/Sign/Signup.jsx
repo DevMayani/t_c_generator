@@ -6,7 +6,7 @@ import Images from '../../images/logoimgone.png';
 import Gog from '../../images/gogg.png';
 import { Link } from "react-router-dom";
 
-const Signup = () => {
+const Signup = () => { 
   return (
    <Container fluid id='maint-cont'>
     <Row >

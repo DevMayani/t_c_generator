@@ -353,6 +353,17 @@ code {
 #new-two{
   max-height: 145vh;
 }
+#maint-conts{
+  max-height: 135vh;
+  margin-top: 30px;
+  
+}
+#new-oness{
+  height: 135vh;
+}
+#new-twos{
+  height: 135vh;
+}
 #maint-cont{
   height: 145vh;
   margin-top: 30px;
@@ -400,6 +411,7 @@ code {
 hr{
   width: 10%;
 }
+
 .line{
   display: flex;
   justify-content: center;
@@ -408,7 +420,21 @@ hr{
   margin-top: 20px;
   width: 80%;
 }
+.lines{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+  /* margin:auto; */
+}
 .link{
+  text-decoration:none;
+  list-style: none;
+  /* font-size:; */
+}
+.links{
   text-decoration:none;
   list-style: none;
   /* font-size:; */
@@ -420,6 +446,28 @@ hr{
 }
 .first{
   margin-top: 20px;
+}
+.firstsh{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 80%;
+  gap: 40px;
+}
+.firsty{
+  margin-top: 20px;
+  height:7vh;
+  width:80%;
+}
+.buton{
+  width:100%;
+  background-color:#093330;
+  color:white;
+  border:none;
+  height:7vh;
+  border-radius:10px;
 }
 .firsts{
   margin-top: 40px;
