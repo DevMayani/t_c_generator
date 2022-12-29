@@ -34,6 +34,7 @@ code {
   border-radius: 20px;
   height: 30px;
   color: white;
+  /* margin-top: 5px; */
 }
 .get{
   width: 200px;
@@ -347,10 +348,10 @@ code {
   font-size: xx-large;
 }
 #new-ones{
-  height: 145vh;
+  max-height: 145vh;
 }
 #new-two{
-  height: 145vh;
+  max-height: 145vh;
 }
 #maint-cont{
   height: 145vh;
@@ -430,6 +431,8 @@ hr{
 }
 .colo{
   color: #E43A19;
+  list-style: none;
+  text-decoration: none;
 }
 .pur{
   color: #6055F4;
@@ -439,7 +442,15 @@ hr{
   list-style: none;
   text-decoration: none;
 }
-
+.lnk{
+  list-style: none;
+  text-decoration: none;
+  color:grey;
+}
+.lnks{
+  list-style: none;
+  text-decoration: none;
+}
 
 
 

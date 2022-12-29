@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Images from '../../images/logoimgone.png';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -23,8 +24,8 @@ const Home = () => {
             <Nav.Link href="#pricing"><h5>Contact Us</h5></Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href=""><h5>Log in</h5></Nav.Link>
-            <Nav.Link href=""><button className='sign'>Sign Up</button></Nav.Link>
+            <Nav.Link><Link to='/signin' className='lnk'><h5>Log in</h5></Link></Nav.Link>
+            <Nav.Link><Link to='/signup' className='lnk'><button className='sign'>Sign Up</button></Link></Nav.Link> 
           </Nav>
         </Navbar.Collapse>
       </Container>

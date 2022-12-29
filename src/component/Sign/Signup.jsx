@@ -4,12 +4,13 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'
 import Images from '../../images/logoimgone.png';
 import Gog from '../../images/gogg.png';
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
    <Container fluid id='maint-cont'>
     <Row >
-      <Col id='new-ones'>
+      <Col xl={6} sm={12} id='new-ones'>
       <div>
       <img src={Images} width={300}></img>
       </div>
@@ -19,7 +20,8 @@ const Signup = () => {
         <p className='ggg'>Having a good Terms of Service (TOS) is very important for every website or application. Basically, is a legal agreement between a service and a person that wants to use that service. We will take care to clear all the doubts of your current and upcoming users with our highly professional TOS generator.</p>
       </div>
       </Col>
-      <Col id='new-two'>
+      <Col  xl={6} sm={12} id='new-two'>
+        <Container>
      
       <h2 className='creat'>Create account</h2>
       <div className='main-sig'>
@@ -64,9 +66,10 @@ const Signup = () => {
             <input type='submit' placeholder='Sign Up' className='inp'/>
           </div>
           <div className='firsts'>
-            <h6>Already have an account</h6>
-            <h6 className='colo'>Sign in</h6>
+            <h6>Already have an account?</h6>
+            <Link to='/signin' className='lnks'><h6 className='colo'>Sign in</h6></Link>
           </div>
+          </Container>
       </Col>
     </Row>
    </Container>
