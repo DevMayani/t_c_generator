@@ -52,7 +52,7 @@ const Signin = () => {
             <input type='password' placeholder='Enter password' className='inp'/>
           </div>
           <div className='first'>
-            <p className='pur'>Forgot Password?</p>
+          <Link to='/reset' className='lnks'><p className='pur'>Forgot Password?</p></Link>
           </div>
           <div className='firsty'>
           <button className='buton'>Log In</button>
